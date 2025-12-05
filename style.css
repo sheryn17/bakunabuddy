@@ -39,3 +39,47 @@ button {
 button:hover {
     background: #e0e0e0;
 }
+.features {
+    margin-top: 50px;
+    text-align: center;
+    width: 80%;
+}
+
+.features h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.repo-card {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 10px;
+    width: 300px;
+    color: #ffffff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.repo-card h3 {
+    margin: 0 0 10px 0;
+    color: #04d9ff;
+}
+
+.repo-card p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.repo-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #04d9ff;
+    font-weight: bold;
+}
+
+.repo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #04d9ff;
+}
